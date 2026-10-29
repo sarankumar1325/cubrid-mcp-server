@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.8.0](https://github.com/cubrid-lab/cubrid-mcp-server/compare/v0.7.0...v0.8.0) (2026-10-29)
+
+
+### Added
+
+* **cli:** handle --help and --version before config ([#496](https://github.com/cubrid-lab/cubrid-mcp-server/issues/496)) ([cb21925](https://github.com/cubrid-lab/cubrid-mcp-server/commit/cb2192531e900a236de30c112f6f2958ea77b3c9)), closes [#487](https://github.com/cubrid-lab/cubrid-mcp-server/issues/487)
+
+
+### Fixed
+
+* list both sides of a rename in the translation-sync changed-file list ([#468](https://github.com/cubrid-lab/cubrid-mcp-server/issues/468)) ([968d14c](https://github.com/cubrid-lab/cubrid-mcp-server/commit/968d14c5e872aaa57bc2e821e9cd49c365570230)), closes [#467](https://github.com/cubrid-lab/cubrid-mcp-server/issues/467)
+
+
+### Documentation
+
+* **readme:** repin the brand icon to the transparent role marks ([#495](https://github.com/cubrid-lab/cubrid-mcp-server/issues/495)) ([30783b6](https://github.com/cubrid-lab/cubrid-mcp-server/commit/30783b67eefb7b43a29d3351d34cb46799bb965f))
+* **templates:** correct the bug-report title example and collect useful diagnostics ([#493](https://github.com/cubrid-lab/cubrid-mcp-server/issues/493)) ([59d88fd](https://github.com/cubrid-lab/cubrid-mcp-server/commit/59d88fd823cdc55eefcc8b773e78f4661ca505a8))
+* use the Python yellow from the brand tokens in the site theme ([#498](https://github.com/cubrid-lab/cubrid-mcp-server/issues/498)) ([34777ed](https://github.com/cubrid-lab/cubrid-mcp-server/commit/34777edc9d274355d71b28486480729194bfccb0))
+
 ## [0.7.0](https://github.com/cubrid-lab/cubrid-mcp-server/compare/v0.6.0...v0.7.0) (2026-10-27)
 
 
