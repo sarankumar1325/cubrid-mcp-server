@@ -7,13 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-10-29
+
 ### Added
 
 - **CLI `--help` / `--version` without a database (#487)** — `cubrid-mcp-server -h`/`--help` and `--version` are handled before configuration is read, exit 0, and print to stderr (usage lists the stdio transport, the four required `CUBRID_*` variables, and docs links; version uses the package `__version__`). Unrecognized arguments exit 2 with an argparse error on stderr. README and Troubleshooting mention the flags.
 
+* **cli:** handle --help and --version before config ([#496](https://github.com/cubrid-lab/cubrid-mcp-server/issues/496)) ([cb21925](https://github.com/cubrid-lab/cubrid-mcp-server/commit/cb2192531e900a236de30c112f6f2958ea77b3c9)), refs [#487](https://github.com/cubrid-lab/cubrid-mcp-server/issues/487)
+
+### Fixed
+
+* list both sides of a rename in the translation-sync changed-file list ([#468](https://github.com/cubrid-lab/cubrid-mcp-server/issues/468)) ([968d14c](https://github.com/cubrid-lab/cubrid-mcp-server/commit/968d14c5e872aaa57bc2e821e9cd49c365570230)), refs [#467](https://github.com/cubrid-lab/cubrid-mcp-server/issues/467)
+
 ### Documentation
 
 - **README and docs site show the transparent brand icon (#494)** — the icon URL pinned in the README, its translations and `mkdocs.yml` (logo and favicon) now points at brand revision `e55990a`, where the MCP icon's three-way router is real transparency instead of white paint. Documentation only; behavior is unchanged.
+
+* **readme:** repin the brand icon to the transparent role marks ([#495](https://github.com/cubrid-lab/cubrid-mcp-server/issues/495)) ([30783b6](https://github.com/cubrid-lab/cubrid-mcp-server/commit/30783b67eefb7b43a29d3351d34cb46799bb965f))
+* **templates:** correct the bug-report title example and collect useful diagnostics ([#493](https://github.com/cubrid-lab/cubrid-mcp-server/issues/493)) ([59d88fd](https://github.com/cubrid-lab/cubrid-mcp-server/commit/59d88fd823cdc55eefcc8b773e78f4661ca505a8))
+* use the Python yellow from the brand tokens in the site theme ([#498](https://github.com/cubrid-lab/cubrid-mcp-server/issues/498)) ([34777ed](https://github.com/cubrid-lab/cubrid-mcp-server/commit/34777edc9d274355d71b28486480729194bfccb0))
 
 ### Tests
 
